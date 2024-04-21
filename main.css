@@ -7,7 +7,8 @@
 body {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
+    background: #faf8ef;
 }
 
 .container {
@@ -15,15 +16,26 @@ body {
     grid-template-columns: 420px 200px;
 }
 
+.game-play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #board {
-    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.start-game {
+    padding-top: 100px;
 }
 
 .start-game button {
-    width: 100%;
+    width: 200px;
     height: 50px;
-    background: greenyellow;
+    background: #8f7a66;
     font-size: 1.5rem;
     border-radius: 5px;
     cursor: pointer;
+    color: #f9f6f2;
 }

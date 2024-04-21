@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>2048 game</title>
 </head>
 <body>
     <div class="container">
-        <canvas id="board"></canvas>
+        <div class="game-play">
+            <h1 style="font-size: 4rem;">2048</h1>
+            <canvas id="board"></canvas>
+            <h1 class="game-over" style="font-size: 4rem;"></h1>
+        </div>
         <div class="start-game">
             <button>Play</button>
             <h1 class="score">Score: <span>0</span></h1>
